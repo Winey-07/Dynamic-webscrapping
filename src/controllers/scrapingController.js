@@ -4,7 +4,7 @@
 // ==========================================
 
 const websiteService = require("../services/websiteService");
-const { scrapeWithCheerio } = require("../services/cheerioScraper");
+const scraperService = require("../services/scraperService");
 const itemService = require("../services/itemService");
 
 const scrapingController = {
